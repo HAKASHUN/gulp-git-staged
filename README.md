@@ -22,10 +22,10 @@ npm install --save-dev gulp-git-staged
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var git-staged = require("gulp-git-staged");
+var gitStaged = require("gulp-git-staged");
 
 gulp.src("./src/*.ext")
-	.pipe(git-staged())
+	.pipe(gitStaged())
 	.on('data', function (file) {
     console.log("Staged file:", file);
   });
