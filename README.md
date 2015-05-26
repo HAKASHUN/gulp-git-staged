@@ -1,7 +1,7 @@
 
 # gulp-git-staged
 
-> git-staged plugin for [gulp](https://github.com/wearefractal/gulp)
+> You can get an object stream of git staged files on git.
 
 ## TODO
 
